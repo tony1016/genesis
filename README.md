@@ -1,2 +1,2 @@
-# genesis
+# Genesis
 A god actor simulator
