@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Genesis</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="res/animate.min.css">
 </head>
 
 <body>
@@ -14,18 +15,39 @@
         <div class="page-header">
             <h1>Genesis  <small>A GOD actor simulator</small></h1>
             <div class="row">
-                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class="col-md-8 col-lg-8">
                     <p>I think the UNIVERSE is only consist of CONSTANTS & RANDOM</p>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="text-align: right;color: grey">
+                <div class="col-md-4 col-lg-4" style="text-align: right;color: grey">
                     <p>Ver.0.00000001</p>
                 </div>
             </div>
         </div>
-        <canvas style="background-color:  black;height: 600px;width: 100%"></canvas>
+        <div class="row">
+            <div class="col-md-8 col-lg-8">
+                <canvas style="background-color:  black;height: 480px;width: 100%"></canvas>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#story" aria-controls="story" role="tab" data-toggle="tab">STORY</a></li>
+                    <li role="presentation"><a href="#mind" aria-controls="mind" role="tab" data-toggle="tab">GOD'MIND</a></li>
+                    <li role="presentation"><a href="#hand" aria-controls="hand" role="tab" data-toggle="tab">GOD'HAND</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content" style="padding-top: 20px;">
+                    <div role="tabpanel" class="tab-pane fade in active tlt" id="story" data-in-effect="rollIn">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+                    <div role="tabpanel" class="tab-pane fade" id="mind">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+                    <div role="tabpanel" class="tab-pane fade" id="hand">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="http://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="res/jquery.lettering-0.6.1.min.js"></script>
+    <script src="res/jquery.textillate.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
