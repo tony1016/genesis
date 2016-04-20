@@ -10,7 +10,8 @@ class Story(tornado.websocket.WebSocketHandler):
     		with open("/var/log/syslog") as f:
 			    lines = f.readlines()
 			    last_row = lines[-1]
-			    self.write_message(last_row)
+			    self.write_message(last_row+"\r")
+
     	else:
     		self.write_message("Unrecognized message: " + message)
 
